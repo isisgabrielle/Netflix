@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap');
+
+body, html {
+ 
+  margin: 0;
+  padding: 0;
+   justify-content: center;
+   align-items: flex-start;
+   height: 100vb;
+   
+
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 11%;
+  z-index: 2; 
+  background-color: #000000;
+}
+
+.background {
+  background-image: url(compose.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+}
+
+.background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, transparent, rgba(0, 0, 0, 0.5));
+  pointer-events: none;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  align-items: center;
+  width: 400px;
+  
+}
+
+#title {
+  font-family: 'Cami Rae', cursive;
+  font-size: 90pt;
+  color: #fff;
+  margin-left: 52px;
+  margin-bottom: 5px;
+}
+
+#descricao {
+  margin-left: 52px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.button{
+  margin-left: 52px;
+  display: flex;
+}
+button {
+ display: inline-flex;
+  line-height: 20px;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+#assistir {
+  font-weight: 900;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px 15px;
+  border: none;
+  margin-right: 10px;
+  
+
+
+  
+}
+#info {
+  font-weight: 800;
+ border-radius: 5px;
+  color:#ffffff;
+  background-color: #413f3f75;
+  border: none;
+  padding: 8px 20px;
+  }
+
+button i, button svg {
+  margin-right: 5px;
+} 
+
+
+#menuNavega{  
+  
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  height: 10%;
+  margin-left: 15px;
+
+  
+
+}
+ul li a:hover {
+ text-decoration: none;
+ color: #595858; 
+ 
+}
+
+ul li{  
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 20px;
+
+}
+ul li a {
+  color: #ffffff;
+  font-family: 'Montserrat';
+ font-size: small;
+ text-decoration: none;
+
+}
+
+#pesquisa {
+  background-color: #000000;
+  margin-left: 450px;
+  display: inline-flex;
+  border: none;
+ 
+}
+#notificacoes {
+  background-color: #000000;
+  margin-left: 10px;
+  display: inline-flex;
+  border: none;
+ 
+}
+#fotoUser {
+  background-color: #000000;
+  margin-left: 10px;
+  display: inline-flex;
+  border: none;
+  margin-right: 0%;
+ 
+}
+#setaFoto {
+  background-color: #000000;
+  display: inline-flex;
+  border: none;
+ 
+}
+
